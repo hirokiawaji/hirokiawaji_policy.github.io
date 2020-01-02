@@ -1,0 +1,122 @@
+.header-list{
+  list-style: none;
+}
+*{
+  box-sizing: border-box;
+}
+.header-list li{
+  display:inline-block;
+  margin:10px;
+  font-family:courier
+}
+.header-list {
+  display:inline-block;
+  text-align:right;
+}
+.icon{
+  display:inline-block;
+  font-family:"Palatino Linotype";
+  margin-left:30px;
+}
+.header{
+  height:50px;
+  border-bottom:solid 1px;
+}
+.works li{
+  display:inline-block;
+  width:24%;
+  list-style: none;
+}
+.footer{
+  border-top:solid 1px;
+}
+.footer ul{
+  margin-top:0px;
+}
+.home{
+  text-decoration: none;
+  color:black;
+}
+.works{
+  text-decoration: none;
+  color:black;
+}
+.contact{
+  text-decoration: none;
+  color:black;
+}
+.profile{
+  text-decoration: none;
+  color:black;
+}
+.policy{
+  text-decoration: none;
+  font-weight:bold;
+}
+.home:hover{
+  color:gray;
+}
+.works:hover{
+  color:gray;
+}
+.contact:hover{
+  color:gray;
+}
+.profile:hover{
+  color:gray;
+}
+h1{
+  margin-left: 30px;
+  font-family:"Palatino Linotype";
+  font-size:20px;
+}
+.diagram1{
+  width:70%;
+  display:inline-block;
+  vertical-align:middle;
+}
+.explanation1{
+
+  display:inline-block;
+  width:25%;
+  vertical-align:middle;
+  font-family:serif;
+  font-size:14px;
+}
+.Policy1,.Policy2,.Policy3{
+  margin:50px 0 50px 0;
+}
+@media(max-width:1000px){
+  .header-list{
+    display:block;
+    margin:0 auto;
+    text-align:left;
+  }
+  .header{
+    height:90px;
+  }
+  .diagram1{
+    display:block;
+    width:80%;
+    margin:0 auto;
+  }
+  .explanation1{
+    display:block;
+    width:80%;
+    margin:0 auto;
+    font-size:12px;
+  }
+}
+@media(max-width:670px){
+  .diagram1{
+    display:block;
+    width:100%;
+    margin:0 auto;
+  }
+  .explanation1{
+    display:block;
+    width:90%;
+    margin:0 auto;
+    font-size:10px;
+  }
+}
