@@ -49,6 +49,10 @@
   text-decoration: none;
   color:black;
 }
+.notes{
+  text-decoration: none;
+  color:black;
+}
 .policy{
   text-decoration: none;
   font-weight:bold;
@@ -63,6 +67,9 @@
   color:gray;
 }
 .profile:hover{
+  color:gray;
+}
+.notes:hover{
   color:gray;
 }
 h1{
