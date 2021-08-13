@@ -84,6 +84,10 @@ h1{
   display:inline-block;
   vertical-align:middle;
 }
+
+.Policy1,.Policy2,.Policy3{
+  margin:50px 0 50px 0;
+}
 .explanation1 h3{
 
   display:inline-block;
@@ -92,9 +96,6 @@ h1{
   font-family:serif;
   font-weight:lighter;
   font-size:14px;
-}
-.Policy1,.Policy2,.Policy3{
-  margin:50px 0 50px 0;
 }
 @media(max-width:1000px){
   .header-list{
