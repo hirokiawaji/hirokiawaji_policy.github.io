@@ -116,6 +116,9 @@
     margin:0 auto;
     text-align:left;
   }
+  .header-list li{
+    font-size:36px;
+  }
   .header{
     height:90px;
   }
