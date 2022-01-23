@@ -19,7 +19,8 @@
   display:inline-block;
   font-family:serif;
   font-weight:bold;
-  margin-left:48px;
+  margin-left:30px;
+  font-size:48px;
 }
 .header{
   height:50px;
